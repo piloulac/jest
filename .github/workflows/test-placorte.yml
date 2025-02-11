@@ -1,0 +1,36 @@
+name: SBOM Analysis
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # Runs daily at 2 AM UTC
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  generate-sbom:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install SBOM generator
+        run: |
+          curl -LO https://github.com/CycloneDX/cyclonedx-cli/releases/latest/download/cyclonedx-linux-amd64
+          chmod +x cyclonedx-linux-amd64
+          sudo mv cyclonedx-linux-amd64 /usr/local/bin/cyclonedx
+
+      - name: Generate SBOM and Measure Time
+        run: |
+          start_time=$(date +%s)
+          cyclonedx create --output sbom.json --format json
+          end_time=$(date +%s)
+          duration=$((end_time - start_time))
+          echo "SBOM_GENERATION_TIME=$duration" >> $GITHUB_ENV
+          echo "SBOM generation took $duration seconds."
+
+      - name: Upload SBOM artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sbom
+          path: sbom.json
+
