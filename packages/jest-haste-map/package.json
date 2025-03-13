@@ -26,7 +26,7 @@
     "graceful-fs": "^4.2.9",
     "jest-regex-util": "workspace:*",
     "jest-util": "workspace:*",
-    "jest-worker": "workspace:*",
+    "jest-worker": "0.0.0",
     "micromatch": "^4.0.8",
     "walker": "^1.0.8"
   },
