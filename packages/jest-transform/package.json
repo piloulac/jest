@@ -19,7 +19,7 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@babel/core": "^7.11.6",
+    "@babel/core": "^7.26.10",
     "@jest/types": "workspace:*",
     "@jridgewell/trace-mapping": "^0.3.18",
     "babel-plugin-istanbul": "^7.0.0",
@@ -27,7 +27,7 @@
     "convert-source-map": "^2.0.0",
     "fast-json-stable-stringify": "^2.1.0",
     "graceful-fs": "^4.2.9",
-    "jest-haste-map": "workspace:*",
+    "jest-haste-map": "0.0.0",
     "jest-regex-util": "workspace:*",
     "jest-util": "workspace:*",
     "micromatch": "^4.0.8",
