@@ -26,7 +26,7 @@
     "@jest/transform": "workspace:*",
     "@jest/types": "workspace:*",
     "chalk": "^4.0.0",
-    "jest-config": "workspace:*",
+    "jest-config": "0.0.0",
     "jest-runtime": "workspace:*",
     "jest-util": "workspace:*",
     "jest-validate": "workspace:*",
