@@ -23,7 +23,7 @@
     "@jest/transform": "workspace:*",
     "@types/babel__core": "^7.1.14",
     "babel-plugin-istanbul": "^7.0.0",
-    "babel-preset-jest": "workspace:*",
+    "babel-preset-jest": "0.0.1",
     "chalk": "^4.0.0",
     "graceful-fs": "^4.2.9",
     "slash": "^3.0.0"
