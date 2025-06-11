@@ -18,7 +18,7 @@
     "@jest/pattern": "workspace:*",
     "@jest/reporters": "workspace:*",
     "@jest/test-result": "workspace:*",
-    "@jest/transform": "workspace:*",
+    "@jest/transform": "30.0.0",
     "@jest/types": "workspace:*",
     "@types/node": "*",
     "ansi-escapes": "^4.2.1",
