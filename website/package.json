@@ -32,10 +32,10 @@
     ]
   },
   "dependencies": {
-    "@docusaurus/core": "^3.0.0",
+    "@docusaurus/core": "^3.9.0",
     "@docusaurus/plugin-client-redirects": "^3.0.0",
     "@docusaurus/plugin-pwa": "^3.0.0",
-    "@docusaurus/preset-classic": "^3.0.0",
+    "@docusaurus/preset-classic": "^3.9.0",
     "@docusaurus/remark-plugin-npm2yarn": "^3.0.0",
     "clsx": "^2.0.0",
     "docusaurus-remark-plugin-tab-blocks": "^3.0.0",
