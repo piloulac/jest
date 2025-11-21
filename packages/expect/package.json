@@ -23,7 +23,7 @@
   "dependencies": {
     "@jest/expect-utils": "workspace:*",
     "jest-get-type": "workspace:*",
-    "jest-matcher-utils": "workspace:*",
+    "jest-matcher-utils": "0.0.0",
     "jest-message-util": "workspace:*",
     "jest-mock": "workspace:*",
     "jest-util": "workspace:*"
