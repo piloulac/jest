@@ -15,9 +15,9 @@
   },
   "dependencies": {
     "@bcoe/v8-coverage": "^0.2.3",
-    "@jest/console": "workspace:*",
-    "@jest/test-result": "workspace:*",
-    "@jest/transform": "workspace:*",
+    "@jest/console": "24.3.0",
+    "@jest/test-result": "24.3.0",
+    "@jest/transform": "25.0.0",
     "@jest/types": "workspace:*",
     "@jridgewell/trace-mapping": "^0.3.18",
     "@types/node": "*",
