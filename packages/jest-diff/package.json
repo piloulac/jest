@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "chalk": "^4.0.0",
-    "diff-sequences": "workspace:*",
+    "diff-sequences": "0.0.0",
     "jest-get-type": "workspace:*",
     "pretty-format": "workspace:*"
   },
