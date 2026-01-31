@@ -23,7 +23,7 @@
   "dependencies": {
     "@jest/console": "workspace:*",
     "@jest/environment": "workspace:*",
-    "@jest/transform": "workspace:*",
+    "@jest/transform": "25.0.0",
     "@jest/types": "workspace:*",
     "chalk": "^4.0.0",
     "jest-config": "workspace:*",
