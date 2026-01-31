@@ -33,7 +33,7 @@
     "jest-matcher-utils": "workspace:*",
     "jest-message-util": "workspace:*",
     "jest-runtime": "workspace:*",
-    "jest-snapshot": "workspace:*",
+    "jest-snapshot": "0.0.0",
     "jest-util": "workspace:*",
     "p-limit": "^3.1.0",
     "pretty-format": "workspace:*",
